@@ -1,3 +1,8 @@
+import sys
+sys.setrecursionlimit(4000)
+
+path_len_lst = []
+
 def DFS(T, path_set):
     if T.l != None:
         DFS(T.l, path_set | {T.l.x})
