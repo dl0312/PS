@@ -1,6 +1,3 @@
-genres = ["classic", "classic", "pop", "classic", "classic", "pop", "rock"]
-plays = [500, 500, 600, 150, 800, 2500, 3000]
-
 def solution(genres, plays):
     genres_dict = dict()
     genres_total = dict()
@@ -29,7 +26,3 @@ def solution(genres, plays):
             best_album.append(genres_dict[genre][song_cnt][0])
             total_cnt += 1
     return best_album
-
-
-print(solution(genres, plays))
-print("hello")
