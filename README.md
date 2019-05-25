@@ -10,6 +10,7 @@ This repository is for Algorithm Problem Solving study. It contains algorithm pr
     * 📁 [Greedy](./programmers/greedy)
         * [큰 수 만들기](./programmers/greedy/큰_수_만들기.py)
         * [구명보트](./programmers/greedy/구명보트.py)
+        * [조이스틱](./programmers/greedy/joystick.py)
     * 📁 [Hash](./programmers/hash)
         * [베스트앨범](./programmers/hash/베스트앨범.py)
     * 📁 [Heap](./programmers/heap)
@@ -19,6 +20,7 @@ This repository is for Algorithm Problem Solving study. It contains algorithm pr
         * [가장 큰 수](./programmers/sort/가장_큰_수.py)
     * [땅따먹기](./programmers/땅따먹기.py)
     * [스킬트리](./programmers/스킬트리.py)
+    * [JadenCase 문자열 만들기](./programmers/jadencase.py)
 * 📁 [naver_hackday](./naver_campus_hackday): Naver Campus Hackday
     * 📁 [2019_naver_campus_hackday_summer](./naver_campus_hackday/2019_naver_campus_hackday_summer)
         * [01](./naver_campus_hackday/2019_naver_campus_hackday_summer/01.py)
