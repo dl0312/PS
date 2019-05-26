@@ -23,6 +23,7 @@ This repository is for Algorithm Problem Solving study. It contains algorithm pr
     * [JadenCase 문자열 만들기](./programmers/jadencase.py)
     * [영어 끝말잇기](./programmers/end_to_end.py)
     * [폰켓몬](./programmers/phonekemon.py)
+    * [소수 만들기](./programmers/prime_maker.py)
 * 📁 [naver_hackday](./naver_campus_hackday): Naver Campus Hackday
     * 📁 [2019_naver_campus_hackday_summer](./naver_campus_hackday/2019_naver_campus_hackday_summer)
         * [01](./naver_campus_hackday/2019_naver_campus_hackday_summer/01.py)
