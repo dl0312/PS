@@ -21,6 +21,8 @@ This repository is for Algorithm Problem Solving study. It contains algorithm pr
     * [땅따먹기](./programmers/땅따먹기.py)
     * [스킬트리](./programmers/스킬트리.py)
     * [JadenCase 문자열 만들기](./programmers/jadencase.py)
+    * [영어 끝말잇기](./programmers/end_to_end.py)
+    * [폰켓몬](./programmers/phonekemon.py)
 * 📁 [naver_hackday](./naver_campus_hackday): Naver Campus Hackday
     * 📁 [2019_naver_campus_hackday_summer](./naver_campus_hackday/2019_naver_campus_hackday_summer)
         * [01](./naver_campus_hackday/2019_naver_campus_hackday_summer/01.py)
