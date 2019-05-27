@@ -15,6 +15,7 @@ This repository is for Algorithm Problem Solving study. It contains algorithm pr
         * [베스트앨범](./programmers/hash/베스트앨범.py)
     * 📁 [Heap](./programmers/heap)
         * [더 맵게](./programmers/heap/더_맵게.py)
+        * [라면 공장](./programmers/heap/rameaum.py)
     * 📁 [Sort](./programmers/sort)
         * [H-Index](./programmers/sort/H-Index.py)
         * [가장 큰 수](./programmers/sort/가장_큰_수.py)
