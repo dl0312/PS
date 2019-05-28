@@ -1,17 +1,18 @@
+# use heapq for heap
 import heapq
 
 def solution(stock, dates, supplies, k):
-    answer = 0
-    idx = 0
-    h = []
-    while (stock < k):
-        for i in range(idx, len(dates)):
-            if dates[i] <= stock:
-                heapq.heappush(h, (-supplies[i], supplies[i]))
-                idx = i + 1
+    answer = 0  # answer
+    last_idx = 0    # save last index of dates & supplies
+    pq = [] # priority queue list
+    while stock < k:
+        for idx in range(last_idx, len(dates)):
+            if dates[idx] <= stock:
+                heapq.heappush(pq, -supplies[idx])  # push minus data for max heap
+                last_idx = idx + 1  # update last index
             else:
-                break
-        stock += heapq.heappop(h)[1]
+                break   # if date is not a proper candidate break for loop
+        stock -= heapq.heappop(pq)  # max heap pop
         answer += 1
     return answer
 
