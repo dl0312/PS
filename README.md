@@ -9,6 +9,8 @@ This repository is for Algorithm Problem Solving study. It contains algorithm pr
 * 📁 [programmers](./programmers)
     * 📁 [dynamic programming](./programmers/dynamic%20programming)
         * [가장 긴 팰린드롭](./programmers/dynamic%20programming/longest_palindrome.py)
+        * [등굣길](./programmers/dynamic%20programming/school_road.py)
+        * [멀리 뛰기](./programmers/dynamic%20programming/super_jump.py)
     * 📁 [greedy](./programmers/greedy)
         * [큰 수 만들기](./programmers/greedy/큰_수_만들기.py)
         * [구명보트](./programmers/greedy/구명보트.py)
