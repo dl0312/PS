@@ -7,6 +7,8 @@ This repository is for Algorithm Problem Solving study. It contains algorithm pr
 
 ## 📁 Directories
 * 📁 [programmers](./programmers)
+    * 📁 [dfs & bfs](./programmers/dfs%20&%20bfs)
+        * [단어 변환](./programmers/dfs%20&%20bfs/word_convert.py)
     * 📁 [dynamic programming](./programmers/dynamic%20programming)
         * [가장 긴 팰린드롭](./programmers/dynamic%20programming/longest_palindrome.py)
         * [등굣길](./programmers/dynamic%20programming/school_road.py)
