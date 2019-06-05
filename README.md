@@ -41,6 +41,7 @@ This repository is for Algorithm Problem Solving study. It contains algorithm pr
     * [야근 지수](./programmers/night_work_parameter.py)
     * [줄 서는 방법](./programmers/line_method.py)
     * [하노이의 탑](./programmers/tower_of_hanoi.py)
+    * [숫자 게임](./programmers/number_game.py)
 * 📁 [naver_hackday](./naver_campus_hackday): Naver Campus Hackday
     * 📁 [2019_naver_campus_hackday_summer](./naver_campus_hackday/2019_naver_campus_hackday_summer)
         * [01](./naver_campus_hackday/2019_naver_campus_hackday_summer/01.py)
