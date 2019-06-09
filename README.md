@@ -21,6 +21,7 @@ This repository is for Algorithm Problem Solving study. It contains algorithm pr
         * [큰 수 만들기](./programmers/greedy/큰_수_만들기.py)
         * [구명보트](./programmers/greedy/구명보트.py)
         * [조이스틱](./programmers/greedy/joystick.py)
+        * [단속카메라](/programmers/greedy/cctv.py)
     * 📁 [hash](./programmers/hash)
         * [베스트앨범](./programmers/hash/베스트앨범.py)
     * 📁 [heap](./programmers/heap)
