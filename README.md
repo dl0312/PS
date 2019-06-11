@@ -24,6 +24,7 @@ This repository is for Algorithm Problem Solving study. It contains algorithm pr
         * [조이스틱](./programmers/greedy/joystick.py)
         * [단속카메라](/programmers/greedy/cctv.py)
         * [저울](/programmers/greedy/scale.py)
+        * [섬 연결하기](/programmers/greedy/connect_island.py)
     * 📁 [hash](./programmers/hash)
         * [베스트앨범](./programmers/hash/베스트앨범.py)
     * 📁 [heap](./programmers/heap)
