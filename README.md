@@ -57,6 +57,7 @@ This repository is for Algorithm Problem Solving study. It contains algorithm pr
     * [방문 길이](/programmers/walking_length.py)
     * [기지국 설치](/programmers/base_stations.py)
     * [두 정수 사이의 합](/programmers/between_two_numbers.py)
+    * [올바른 괄호의 갯수](/programmers/right_brackets.py)
 * 📁 [naver_hackday](./naver_campus_hackday): Naver Campus Hackday
     * 📁 [2019_naver_campus_hackday_summer](./naver_campus_hackday/2019_naver_campus_hackday_summer)
         * [01](./naver_campus_hackday/2019_naver_campus_hackday_summer/01.py)
