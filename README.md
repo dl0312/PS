@@ -19,6 +19,7 @@ This repository is for Algorithm Problem Solving study. It contains algorithm pr
         * [등굣길](./programmers/dynamic%20programming/school_road.py)
         * [멀리 뛰기](./programmers/dynamic%20programming/super_jump.py)
         * [거스름돈](./programmers/dynamic%20programming/charge.py)
+        * [3 x n 타일링](/programmers/dynamic%20programming/3xn_tiling.py)
     * 📁 [greedy](./programmers/greedy)
         * [큰 수 만들기](./programmers/greedy/큰_수_만들기.py)
         * [구명보트](./programmers/greedy/구명보트.py)
