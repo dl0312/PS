@@ -14,6 +14,8 @@ This repository is for Algorithm Problem Solving study. It contains algorithm pr
     * 📁 [binary search](./programmers/binary%20search)
         * [예산](./programmers/binary%20search/budget.py)
         * [입국심사](./programmers/binary%20search/immigration.py)
+    * 📁 [backtracking](/programmers/backtracking)
+        * [N-Queen](/programmers/backtracking/n-queen.py)
     * 📁 [dynamic programming](./programmers/dynamic%20programming)
         * [가장 긴 팰린드롭](./programmers/dynamic%20programming/longest_palindrome.py)
         * [등굣길](./programmers/dynamic%20programming/school_road.py)
