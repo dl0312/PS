@@ -1,42 +1,42 @@
+import sys
+
 def solution(n, cores):
-    start = 0
-    end = 5000000000
-    print(n, cores)
-    n -= len(cores)
-    if n < 0:
-        for idx in range(len(cores)-1, -1, -1):
-            n += 1
-            if n == 0:
-                return idx
-    else:
-        center = (start+end)//2
-        while True:
-            center = (start+end)//2
-            task = 0
-            for core in cores:
-                task += center//core
-            if task > n:
-                if end > start + 1:
-                    end = center
-                else:
-                    for idx in range(len(cores)-1, -1, -1):
-                        if not center%cores[idx]:
-                            task -= 1
-                            if task == n:
-                                return idx+1
-            elif task < n:
-                if end > start + 1:
-                    start = center
-                else:
-                    for idx in range(len(cores)):
-                        if not (center+1)%cores[idx]:
-                            task += 1
-                            if task == n:
-                                return idx+1
-            else:
-                for idx in range(len(cores)-1, -1, -1):
-                    if not center%cores[idx]:
-                        return idx+1
+    answer = 0
+    min = sys.maxsize
+    length = len(cores)
+    if n <= length:
+        return n
+
+    for core in cores:
+        if min > core:
+            min = core
+
+    start = (n//length)*min
+    end = n*min
+    center = (start+end)//2
+
+    while start < end:
+        print(start, end, center)
+        cnt = 0
+        available_cnt = 0
+        for core in cores:
+            cnt += (center//core)+1
+            if center % core == 0:
+                available_cnt += 1
+                cnt -= 1
+        if cnt >= n:
+            end = center
+        elif cnt + available_cnt < n:
+            start = center + 1
+        else:
+            for i in range(length):
+                if center % cores[i] == 0:
+                    cnt += 1
+                if cnt == n:
+                    return i+1
+        center = (start + end)//2
+
+    return answer
 
 n = 6
 cores = [1,2,3]
@@ -48,7 +48,13 @@ print(solution(n, cores)) # 1
 
 n = 8
 cores = [1,2,3]
-print(solution(n, cores)) # 2
+print(solution(n, cores)) # 3
+
+# 1, 2, 3 = 3
+# 1, 1, 2 = 4
+# 1, 2, 1 = 6
+# 1, 1, 3 = 8
+
 # for n in range(1, 500): # 처리해야 할 일의 수
 #     for length in range(2, 100): # 코어의 수
 #         cores = list(range(length+1,0, -1))
