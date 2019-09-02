@@ -70,8 +70,10 @@ This repository is for Algorithm Problem Solving study. It contains algorithm pr
         * [03](./naver_campus_hackday/2019_naver_campus_hackday_summer/03.py)
 * 📁 [kakao blind recruitment](./kakao%20blind%20recruitment)
     * 📁 [2017 kakao blind recruitment](./kakao%20blind%20recruitment/2017%20kakao%20blind%20recruitment)
-        * [캐시](./kakao%20blind%20recruitment/2017%20kakao%20blind%20recruitment/cache.py)
+        * [캐시](./kakao%20blind%20recruitment/2017%20kakao%20blind%20recruitment/cache.py) 
         * [보물지도](./kakao%20blind%20recruitment/2017%20kakao%20blind%20recruitment/treasure_map.py)
+    * 📁 [2018 kakao blind recruitment](./kakao%20blind%20recruitment/2018%20kakao%20blind%20recruitment)
+        * [오픈 채팅방](./kakao%20blind%20recruitment/2018%20kakao%20blind%20recruitment/open_chat.py)
 * 📁 [sp_pj4](./sp_pj4): Sogang Univ. System Programming Python HW
     * [p1](./sp_pj4/p1.ipynb)
     * [p2](./sp_pj4/p2.ipynb)
