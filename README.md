@@ -77,6 +77,7 @@ This repository is for Algorithm Problem Solving study. It contains algorithm pr
         * [실패율](./kakao%20blind%20recruitment/2018%20kakao%20blind%20recruitment/fail_rate.py)
         * [후보키](./kakao%20blind%20recruitment/2018%20kakao%20blind%20recruitment/candidate_key.py)
         * [무지의 먹방 라이브](./kakao%20blind%20recruitment/2018%20kakao%20blind%20recruitment/muzi_mukbang.py)
+        * [길찾기 게임](./kakao%20blind%20recruitment/2018%20kakao%20blind%20recruitment/find_way_game.py)
 * 📁 [sp_pj4](./sp_pj4): Sogang Univ. System Programming Python HW
     * [p1](./sp_pj4/p1.ipynb)
     * [p2](./sp_pj4/p2.ipynb)
